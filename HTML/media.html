@@ -1,0 +1,74 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio and video tag</title>
+</head>
+<style>
+    body {
+        margin: 0 3rem;
+    }
+
+    .h1 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .audio {
+        /* height: 100vh; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .h4{
+        text-decoration: underline;
+    }
+</style>
+
+<body>
+    <div>
+        <h1 class="h1">
+            audio and video tag
+        </h1>
+        <hr>
+        <h2 class="h4">
+            how to add audio
+        </h2>
+    
+        <h4 class="h4">Attridutes of the audio tag</h4>
+        <ol>
+            <li>src</li>
+            <li>controls</li>
+            <li>autoplay</li>
+            <li>muted</li>
+        </ol>
+        <div class="audio">
+            <audio src="./audio/sampleAudio.mp3" controls loop autoplay muted></audio>
+        </div>
+        <hr>
+        <h2 class="h4">
+                how to add the video
+        </h2>
+        <h4>
+            Attridutes
+        </h4>
+        <ol>
+            <li>src</li>
+            <li>controls</li>
+            <li>autoplay</li>
+            <li>muted</li>
+            <li>height and width</li>
+            <li>poster</li>
+        </ol>
+        <div>
+            <video src="./video/sampleVideo.mkv" height="300" width="500" controls poster="./poster/poster_image.jpg"></video>
+        </div>
+
+    </div>
+</body>
+
+</html>
