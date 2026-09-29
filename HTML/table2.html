@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table formating and structing </title>
+</head>
+<style>
+    .table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    td {
+        text-align: center;
+        font-family: monospace;
+        font-weight: bolder;
+        text-decoration: underline;
+        color: aliceblue;
+    }
+
+    #row1 {
+        background: tomato;
+    }
+
+    #row2 {
+        background: orange;
+    }
+
+    #row3 {
+        background: greenyellow
+    }
+
+    #row4 {
+        background: orchid;
+    }
+
+    #row5 {
+        background: red;
+    }
+</style>
+
+<body>
+    <h1 style="text-align: center;">table with row and col1</h1>
+    <div class="table">
+
+        <table border="1" width="500" height="400">
+            <!-- 1 -->
+            <tr id="row1">
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <!-- 2 -->
+            <tr id="row2">
+                <td colspan="2">4</td>
+                <td>5</td>
+            </tr>
+            <!-- 3 -->
+            <tr id="row3">
+                <td rowspan="2">6</td>
+                <td>7</td>
+                <td rowspan="3">8</td>
+            </tr>
+            <!-- 4 -->
+            <tr id="row4">
+                <td colspan="">9</td>
+            </tr>
+            <!-- 5 -->
+            <tr id="row5">
+                <td colspan="2">10</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

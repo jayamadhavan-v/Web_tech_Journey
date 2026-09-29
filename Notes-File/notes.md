@@ -473,3 +473,22 @@ HTML
 ```html
     <video src="./video/sampleVideo.mkv" height="300" width="500" controls poster="./poster/poster_image.jpg"></video>
 ```
+
+## table 
+* table is the combination of rows and cols 
+* in html for creating the table we ned to the `<table> </table>` tag .
+* inside table for creating rows we need `<tr> </tr>` tag.
+* inside the rows we have to give data ,for that we can use the `<th> </th>` and `<td> </td>` tag .
+* to provide the title of ther table we can use the caption `<caption>` tag.
+
+### attridutes 
+
+**border**
+* used to provide the outline to the table .
+**size(height and width )**
+* used to resize the table
+**cellspacing**
+* used to provide the space between the cells (outside of the cell).
+
+**cellpadding**
+* used to provide the space inside the cells between the content and border.

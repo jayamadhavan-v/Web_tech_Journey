@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time_table</title>
+</head>
+<style>
+    body{
+        height: 100dvh;
+    }
+    .day{
+        font-weight: bolder;
+    }
+    td{
+        text-align: center;
+    }
+.timetable{
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+th{
+    padding: 2px 4px ;
+}
+</style>
+<body>
+    <div class="timetable">
+        <table border="1" width="800" height="500" >
+            <caption>college time table</caption>
+            <thead>
+                <th>Day/period</th>
+                <th>9:30_10:30</th>
+                <th>10:30_11:30</th>
+                <th>11:30_12:30</th>
+                <th>12:30_1:30</th>
+                <th>1:30_2:30</th>
+                <th>2:30_3:30</th>
+                <th>3:30_4:30</th>
+                <th>4:30_5:30</th>
+            </thead>
+            <tbody>
+                <tr class="row1">
+                    <td class="day">Monday</td>
+                    <td>eng</td>
+                    <td>math</td>
+                    <td>chemistry</td>
+                    <td rowspan="5"> lunch</td>
+                    <td colspan="3">lab</td>
+                    <td>phy</td>
+                </tr>
+                <tr class="row2">
+                    <td class="day">tuesday</td>
+                    <td colspan="3">lab</td>
+                    <td>eng</td>
+                    <td>chemistry</td>
+                    <td>math</td>
+                    <td>sport</td>
+                </tr>
+                <tr class="row3">
+                    <td class="day">wednesday</td>
+                    <td>math</td>
+                    <td>phy</td>
+                    <td>eng</td>
+                    <td>che</td>
+                    <td colspan="3">lib</td>
+                </tr>
+
+                <tr class="row4">
+                    <td class="day">thursday</td>
+                    <td>phy</td>
+                    <td>chemistry</td>
+                    <td>eng</td>
+                    <td colspan="3">lab</td>
+                    <td>math</td>
+                </tr>
+                <tr class="row5">
+                    <td class="day">friday</td>
+                    <td>phy</td>
+                    <td>chemistry</td>
+                    <td>eng</td>
+                    <td colspan="3">lab</td>
+                    <td>math</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
