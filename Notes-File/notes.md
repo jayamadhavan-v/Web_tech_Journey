@@ -492,3 +492,22 @@ HTML
 
 **cellpadding**
 * used to provide the space inside the cells between the content and border.
+
+### attritudes of td and th tag 
+
+**rowspans**
+
+* its is used to combine two or more than two two rows .
+
+**colspans**
+
+* its is used to combine two or more than two two columns .
+
+### -------------------------------------------------------------------------------------
+
+* in table we have the some more tags like 
+
+`<thread></thread>`
+,`<tbody></tbody>`
+,`<tfooter></tfooter>`
+
