@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student form </title>
+</head>
+
+<style>
+    .title h1 {
+        text-align: center;
+    }
+
+    body {
+        /* height: 100dvh; */
+    }
+
+    .container {
+        padding: .8rem;
+        /* width: 450px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px dotted red; */
+
+    }
+
+    fieldset {
+        /* border-color: red; */
+        border-radius: .2rem;
+        box-pack: 4px 4px 2px #000;
+    }
+
+    .filedContainer {
+        margin-bottom: .2rem;
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    input {
+        outline: none;
+    }
+
+    .btnContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btnContainer button {
+        margin: 2px 4px;
+    }
+    .checkboxContainer{
+        display: inline;
+    }
+</style>
+
+<body>
+    <div class="title">
+        <h1>Student form</h1>
+
+        <div class="container">
+            <form action="">
+                <fieldset>
+
+                    <legend>student form</legend>
+                    <div class="filedContainer">
+                        <label for="studentName">student Name</label>
+                        <input type="text" id="studentName" placeholder="enter ur full name" name="studentName" i>
+                    </div>
+                    <div class="filedContainer">
+                        <label for="phoneNumber">phoneNumber</label>
+                        <input type="tel" id="phoneNumber" placeholder="enter ur 10 digit valid phone number"
+                            name="phoneNumber" i>
+                    </div>
+                    <div class="filedContainer">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="enter ur password" name="password" i>
+                    </div>
+                    <div class="filedContainer">
+                        <label for="studentAge">age</label>
+                        <input type="number" id="studentAge" placeholder="enter your age" i>
+                    </div>
+                    <div class="filedContainer">
+                        <label for="studentEmail">email</label>
+                        <input type="email" id="studentEmail" placeholder="enter your email id " i>
+                    </div>
+                    <div class="subjects">
+                        <label for="" >subjects</label>
+                        <br>
+                        <div class="checkboxContainer">
+                            <label for="html">HTML</label>
+                            <input type="checkbox" name="html" id="html" value="html">
+                        </div>
+                        <div class="checkboxContainer">
+                            <label for="css">CSS</label>
+                            <input type="checkbox" name="bala" id="css" value="css">
+                        </div>
+                        <div class="checkboxContainer">
+                            <label for="javascript">Javascript</label>
+                            <input type="checkbox" name="javascript" id="javascript" value="javascript">
+                        </div>
+                    </div>
+                    <!-- gender -->
+                    <div class="gender">
+                        <label for="">Gender</label>
+                        <br>
+                        <div class="radio">
+                            <div class="maleRadioDiv radioDiv">
+                                <input type="radio" name="gender" id="male"><label for="male">male</label>
+                            </div>
+
+                            <div class="femaleRadioDiv radioDiv">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">female</label>
+                            </div>
+                            <div class="radioDiv">
+                                <input type="radio" Name="gender" id="other">
+                                <label for="other">other</label>
+                            </div>
+                        </div>
+                    </div>
+<!--tex area  -->
+                    <div class="textAreaDiv">
+                        <label for="Address">Address</label>
+                        <textarea name="Address" id="Address" placeholder="enter your Address" rows="1" cols="30"></textarea>
+                    </div>
+<!--slect   -->
+                    <div class="selectDiv">
+                        <label for="">course </label>
+                        <select name="course" id="">
+                                <option value=""></option>
+                                <option value="java">java</option>
+                                <option value="python">Python</option>
+                                <option value="typescript">typescript</option>
+                        </select>
+                    </div>
+                    <!-- date od birth -->
+                     <div class="dateOfBirth">
+                        <label for="dob">date of Birth</label>
+                        <input type="date" name="DateOfBirth" id="dob" iX>
+                     </div>
+                     <!-- range btn -->
+                      <div class="rangeBtnDiv">
+                        <label for="rangeBtn">salaryException</label>
+                        <input type="range" name="salaryException" id="rangeBtn" value="90"></div>
+                     <!--btn  -->
+                    <div class="btnContainer">
+                        <button>Register</button>
+                        <button>login</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </div>
+</body>
+<style>
+
+.radioDiv{
+    display: inline;
+}
+.textAreaDiv label{
+    display: block;
+}
+select{
+    outline:none;
+}
+</style>
+
+</html>

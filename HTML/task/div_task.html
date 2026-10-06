@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: rgb(231, 179, 230);
+        margin: 0;
+        padding: 0;
+    }
+    #nav{
+        padding: 2px 4px ;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        background: orchid;
+        /* border-radius: 8px; */
+        align-items: center;
+        color: rgba(255, 255, 255, 0.822);
+    }
+    #nav ul {
+        display: flex;
+    }
+    #nav ul li {
+        margin : 2px 6px ;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    #nav h1 {
+        margin-left: 6px;
+        cursor: pointer;
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #main button{
+        padding: 4px 8px;
+        font-weight: bolder;
+        font-size: 18px;
+        border-radius: 6px;
+        color: tomato;
+        background: rgba(241, 146, 129, 0.466);
+        border: none;
+    }
+</style>
+<body>
+    <div id="nav" >
+        <h1>logo</h1>
+        <ul type="none">
+            <li>home </li>
+            <li>about </li>
+            <li>content</li>
+        </ul>
+    </div>
+    <div id="main">
+        <h1>welcome to website </h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <button>get stated </button>
+    </div>
+    <div id="section">
+        <div class="card">Im card</div>
+        <div class="card">Im card</div>
+        <div class="card">Im card</div>
+    </div>
+</body>
+<style>
+    #section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        margin: 4px ;
+
+    }
+    .card{
+        margin-right: 5px;
+        width: 300px;
+        height: 250px;
+        background: orangered;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: beige;
+        font-weight: bold;
+        border-radius: 4px;
+    }
+    
+</style>
+</html>

@@ -167,13 +167,13 @@ input , meta ,br, img,etc..
 ````
     1.block level element
     2.inline level element
-    3.inline block    element 
+    3.inline block element 
 ````
 
 ## Inline level element 
 
 * its will display in the same line .
-* we can not provide the size (heght and width ) .
+* we can not provide the size (height and width ) .
 * it will occupy only content area .
 
 *example :_*
@@ -208,6 +208,7 @@ button,input,audio,video ,etc...
 ## `<img>` tag 
 
 * this tag is used to add image in our web page .
+* it is a inline block level element
 
 **attritudes**
 
@@ -250,7 +251,7 @@ button,input,audio,video ,etc...
 
 ## list tag in  html 
 
-* it is the process of grouping the related elemnt together .
+* it is the process of grouping the related element together .
 
 * In Html we have the 3 types of List .
 
@@ -310,7 +311,7 @@ button,input,audio,video ,etc...
     <ul type ="circle">
         <li>one</li>
         <li>two</li>
-        <li>thre</li>
+        <li>three</li>
     </ul>
 
 ```
@@ -329,23 +330,23 @@ button,input,audio,video ,etc...
 
 * this list we can create by using the `<dl> </dl>` tag.
 * inside this we can give `<dt></dt>` tag to provide the `description term`
-* we have `<dd></dd>` tag , ait is called as `discription definition ` used to provide the information  about the term .
+* we have `<dd></dd>` tag , ait is called as `description definition ` used to provide the information  about the term .
 
 ````html
     <dl>
         <dt>HTML</dt>
-        <dd>stands for the hyber text markup language useed to create the structure of the web page </dd>
+        <dd>stands for the Hypertext markup language used to create the structure of the web page </dd>
     </dl>
 ````
 
 ````output
 HTML
-    stands for the hyber text markup language useed to create the structure of the web page
+    stands for the hyper text markup language used to create the structure of the web page
 ````
 
 ## Hyber link 
 
-* any content if tht contains link of any other webpage is called as the `hyberlink`
+* any content if tht contains link of any other webpage is called as the `hyperlink`
   
 ### what is anchor tag ?
 
@@ -353,7 +354,7 @@ HTML
 * It is used to navigate from one page to another page  or in the same page from one section  to another section .
 * it iss *inline-block level*element .
   
-## attritudes 
+## attitudes  
 
 **href**
 
@@ -366,8 +367,8 @@ HTML
 * if we want open in the new tab we have to give the value as `_blank`.
 
 **title**
-* it will display one message when we will hover the hyberlink content .
-* that message we can define in the title attritude.
+* it will display one message when we will hover the hyperlink content .
+* that message we can define in the title attitude.
   
 ```html
     <a href="https://www.youtube.com/" target="_blank" title="link to youtube">
@@ -444,7 +445,7 @@ HTML
 
 * this is used to add or display the video in our webpage .
   
-### Attridutes 
+### Attidutes 
 
 **src**
 
@@ -511,3 +512,4 @@ HTML
 ,`<tbody></tbody>`
 ,`<tfooter></tfooter>`
 
+-------------------------------------push failed -------------------------------------------
