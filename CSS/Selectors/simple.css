@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    /* border : 2px solid black; */
+    padding: 2px 4px;
+    background: rgba(134, 223, 250, 0.856);
+    border-radius:4px;
+}
+
+nav>div>ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav>div>ul>li{
+    list-style: none;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.link:hover{
+    text-decoration: underline;
+    /* background: red; */
+}
+
+body{
+
+}
+
+header{
+    background: lightpink;
+    height: 300px;
+    border-radius: 4px;
+}
+header>h1{
+    text-align: center;
+    padding-top: 8px;
+}
+#logo{
+    color: red;
+}
+
+main{
+    margin-top: .8rem;
+    display: flex;
+    justify-content: space-around;
+}
+.product{
+    height: 200px;
+    width: 300px;
+    background: lightgrey;
+}

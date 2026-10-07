@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header>h1 {
+    text-align: center;
+    color: rgb(190, 12, 12);
+    margin-bottom: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section>table {
+    width: 80%;
+    border: 1px solid black;
+}
+
+tr>th {
+    border: 1px solid black;
+    padding: 6px 0;
+    background: rgb(117, 23, 23);
+    color: white;
+}
+
+#chef {
+    background: yellow;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    /* background: lightgrey; */
+}
+.veg{
+    background: rgb(126, 184, 126);
+}
+.non-veg{
+    background: rgb(223, 102, 102);
+}
