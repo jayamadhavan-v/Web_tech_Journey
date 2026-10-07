@@ -2,12 +2,12 @@
 # HTML
 
 **what is html**
-* `html` stands fro Hyber text markup langauge .
+* `html` stands fro Hyper text markup language .
 * it wis used to create the structure of the web page .
 
 **why it is called mark up language ?**
 
-* html is not programing language because here we are ot writing any logics.
+* html is not programming language because here we are ot writing any logics.
 * here we are creating structure of the web pages .
 
 **what is the Hyber text ?**
