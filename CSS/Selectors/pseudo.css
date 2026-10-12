@@ -1,0 +1,42 @@
+.hero::selection {
+    background: green;
+    color: yellow;
+}
+
+.hero::after {
+    content: "****";
+    color: red;
+}
+
+.hero::before {
+    content: "~~~";
+    color: blue;
+}
+#inputTag{
+    outline: none;
+}
+#inputTag::placeholder{
+    color: blue;
+    text-transform: capitalize;
+}
+
+.hero >span {
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(63, 205, 87);
+}
+ul li::marker{
+    color: red;
+}
+.top input[type="number"]
+{
+    background: orange;
+}
+
+.bottom .title::first-letter{
+    text-transform: uppercase;
+    color: aquamarine;
+}
+.bottom p::first-line{
+    background: cadetblue;
+}

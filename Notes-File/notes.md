@@ -512,4 +512,90 @@ HTML
 ,`<tbody></tbody>`
 ,`<tfooter></tfooter>`
 
--------------------------------------push failed -------------------------------------------
+## CSS Cascading Style Sheets
+
+----bending is there ----------------------------
+
+### Pseudo Class Selector
+
+#### 1. Hover
+* when we will keep the our mouse cursor on the element that time this selector will change the css of the content .
+
+#### 2. Active 
+* when we will click on the element that time  it will apply this selector css .
+
+
+#### 3.nth child 
+* it is used to target any element by the child number .
+* we can target all  the odd and even element also by using this selector .
+
+
+````css
+    ul li::nth-child(2n){
+        it will target all the even list in the unordered list .
+    }
+     ul li::nth-child(2n+1){
+        it will target all the odd list in the unordered list .
+    }
+
+````
+
+#### 4.first child and last child 
+
+* these selector are used to target the first and last child of any element
+
+#### 5.focus 
+* when we are focusing on any input or text-area tht time we can use this selector to change the css .
+
+### Pseudo Element Selector
+* for applying this selector we have to use double colons `::` .
+  
+  #### 1.first-Letter
+    * it is used to target the first letter of the any text content .
+
+    ````css
+        div p::first-letter{
+            font-size:1.2em;
+        }
+    ````
+    #### 2.first-line
+
+    * it is used to target the first line of the any text content .
+
+    ````css
+        div p::first-line{
+            color :orange;
+        }
+    ````
+
+    #### 3.selector 
+    * when we are selecting any content on the webpage that time if we ccan want to apply some css we can use this selector .
+
+    #### 4.before and after 
+    * these selector are used to add the content from css before and after the selected element .
+
+    **note** we should use `content` key here.
+
+    ````css
+        div > h1::after {
+            content :"----";
+            color : red ;
+        }
+    ````
+
+    #### 5.marker 
+    * it will used to target the list style .
+
+    #### 6.placeholder
+    * it used to target the placeholder inside input tag or text area tag .
+
+## Attribute Selector 
+
+* by using this selector we can target the element by their attributes .
+
+*Syntax*
+
+    tag name[attribute = "value"]
+    {
+        
+    }
