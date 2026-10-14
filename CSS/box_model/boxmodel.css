@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+main{
+    height: 300px;
+    width: 400px;
+    background: darkred;
+    color: white;
+    padding : 10px 90px 30px 10px;
+    /* top right bottom left */
+}
+
+.box1{
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    background: pink;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background: olivedrab;
+}
+
+.bigBox{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
