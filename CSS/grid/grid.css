@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6 {
+    text-transform: capitalize;
+}
+
+section {     
+    /* margin-right: 100px; */
+    height: 100vh;
+    background: rgb(231, 140, 106);
+    display: grid;
+    /* grid-template-columns: 200px 100px 30px 1fr; */
+    grid-template-columns: repeat(3, 120px);
+    grid-template-rows: repeat(3,170px );
+    justify-content: space-evenly;
+    align-content: center;    
+    /* height:100dvh; */
+    align-content: space-evenly;
+}
+
+section > div {
+    
+}
+section > div:nth-of-type(2n) {
+    background: violet;
+    border : 1px solid gray;
+}
+section >div:nth-of-type(2n-1) {
+    background: aquamarine;
+    border : 1px solid black;
+}

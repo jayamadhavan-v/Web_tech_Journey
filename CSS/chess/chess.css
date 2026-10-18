@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title > p{
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.white{
+    background: whitesmoke;
+}
+.black{
+    background: rgb(49, 49, 49);
+}
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 300px;
+    height: 300px;
+    border:5px solid goldenrod;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: repeat(8,1fr);
+    background: bisque;
+}
+main > div {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
