@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+main{
+    padding:30px 3%;
+}
+:root {
+    --main-bg-color: rgba(255, 255, 255, 0.61);
+}
+
+.title {
+    text-transform: capitalize;
+    font-size: 1rem;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--main-bg-color)
+}
+
+.sectionTitle {
+    font-size: .6rem;
+    padding: 3px 8px;
+}
+
+.sectionTitle:hover {
+    color: var(--main-bg-color)
+}
+
+section {
+    width: 100%;
+    padding: 3px 8px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 60px);
+    gap: 6px;
+}
+
+main {
+    height: 100vh;
+    background: rgb(0 5 13);
+
+}
+
+section>div {
+    font-size: .7em;
+    text-wrap: none;
+    background: linear-gradient(47deg, rgb(50, 54, 56) 0%, rgba(37, 66, 99, 1) 35%, rgb(29, 49, 53) 100%);
+    color: whitesmoke;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bolder;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+section>div:hover {
+    color: var(--main-bg-color);
+}
+
+.collection {
+    padding: 3px 8px;
+    display: grid;
+    grid-template-columns: repeat(5,90px);
+    grid-template-rows: 60px;
+    gap:10px;
+}
+
+.collection>div {
+    font-size: .7em;
+    background: #33f5f5be;
+    color: whitesmoke;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: bolder;
+    padding: 6px;
+    border-radius: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}

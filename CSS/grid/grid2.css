@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background: orange;
+    display: grid;
+    grid-template-columns: 100px 300px 250px;
+    grid-template-rows: repeat(3, 50px);
+    /* justify-content: center;
+    align-content: center; */
+    place-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+header {
+    background: blue;
+    grid-column:span 3;
+    color: white;
+}
+
+aside {
+    background: yellow;
+    grid-row:span 2;
+}
+
+section {
+    background: aqua;
+}
+
+div {
+    background: burlywood;
+
+}
+
+footer {
+    background: goldenrod;
+    grid-column: span 2;
+    text-align: center;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
