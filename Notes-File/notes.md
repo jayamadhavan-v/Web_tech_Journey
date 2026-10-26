@@ -628,3 +628,12 @@ HTML
 #### visiblity : hidden 
 
 content will not be visible .it will 
+
+
+<!-- i had issue in the postgreSqL
+i will explain my issue and u get requirement to solve it 
+"issue " i had create the schema in the database bby using the file method which means i wrote the code in the file and after i had execute it 
+the problem i got is while running the file schema was created 
+but in the database actually schema where not created in the database 
+i had verify it by the pg admin and \dt command 
+so how to solve it -->

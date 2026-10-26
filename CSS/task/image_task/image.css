@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: repeat(3, 500px);
+}
+
+.banner {
+    background-image: url(./source/banner.jpg);
+    grid-column: span 3;
+    grid-row: span 1.5;
+    background-size: cover;
+}
+
+.banner>article {
+    background: rgba(30, 37, 66, 0.589);
+}
+
+.one {
+    background-image: url(./source/pic01.jpeg);
+    grid-column: span 1;
+    background-size: cover;
+    place-content: center;
+    color: white;
+
+    background-color: rgb(67, 191, 240);
+}
+
+.one>article {
+    background-color: #6cb4d07a;
+}
+
+.two {
+    background-image: url(./source/pic02.jpeg);
+    grid-column: span 2;
+    background-size: cover;
+    place-content: center;
+    color: white;
+}
+
+.two>article {
+    background: #9086c271;
+}
+
+
+
+.three {
+    background-image: url(./source/pic03.jpeg);
+    grid-column: span 2;
+    background-size: cover;
+    place-content: center;
+    color: white;
+}
+
+.three>article {
+    background: #e4918988;
+}
+
+.four {
+    background-image: url(./source/pic04.jpeg);
+    grid-column: span 1;
+    background-size: cover;
+    place-content: center;
+    color: white;
+}
+
+.four>article {
+    background: #d6ab885b;
+}
+
+
+.five {
+    background-image: url(./source/pic05.jpeg);
+    grid-column: span 1;
+    background-size: cover;
+    place-content: center;
+    color: white;
+}
+
+.five>article {
+    background: #7f99d06c;
+}
+
+.six {
+    background-image: url(./source/pic06.jpeg);
+    grid-column: span 2;
+    background-size: cover;
+    place-content: center;
+    color: white;
+
+}
+
+.six>article {
+    background: #7daf965b;
+}
+
+
+
+div>h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+
+}
+
+div>p {
+    text-transform: uppercase;
+    /* font-size: 12px; */
+    /* letter-spacing: 5px; */
+
+
+}
+
+main>section {
+    background-repeat: no-repeat;
+}
+
+main>section>article {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10%;
+    transition: .4s;
+
+    &:hover {
+        background: transparent;
+    }
+}
+
+
+article>div>p {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+}
