@@ -599,3 +599,32 @@ HTML
     {
         
     }
+
+<!-- after a long gap  css notes still pending is there -->
+
+### grid 
+
+* it ids used to control the 2 dimensional layout tht means we can control both row and column 
+* it will make the current element as grid container an their children as grid-items .
+
+#### grid-container properties : 
+* grid-template-row -- it is used to defined how many row needed and height aof each row
+*  grid-template-column -- it is used to defined how many column needed and witch aof each column .
+* justify-content -- it is used to control the horizontal axis 
+* align - content == it is used to control grid cell in vertical axis 
+* justify-items -- it is used to control the grid items in horizontal axis
+* align-items -- it is used to control the grid items in vertical axis
+
+### grid-items properties 
+* grid-col  -- it is used to control the grid item in which row it should start and end.
+* grid-row  -- it is used to control the grid item in which column it should start and end .
+
+#### display : none 
+
+* it will remove the element from the layout  tht means it will not a visible .
+* it will not occupy the space .
+* we can't intercat with it .
+
+#### visiblity : hidden 
+
+content will not be visible .it will 

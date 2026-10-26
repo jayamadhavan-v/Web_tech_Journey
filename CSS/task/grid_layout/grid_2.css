@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkRed {
+    width: 1020px;
+    height: 650px;
+    padding: 8px;
+    /* grid */
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background: rgb(92, 65, 65);
+}
+
+.darkRed>div {
+    border-radius: 15px;
+    cursor: pointer;
+    transition-delay: .1s;
+}
+
+.lightGreen {
+    grid-column: span 2;
+    grid-row: span 2;
+    /* color */
+    background: green;
+}
+
+.lightGreen:hover {
+    background: rgba(0, 128, 0, 0.644);
+}
+
+.lightBlue {
+    grid-column: span 3;
+    background: aqua;
+
+}
+
+.lightBlue:hover {
+    background: rgba(0, 255, 255, 0.541);
+}
+
+.velvet {
+    grid-column: span 2;
+    background: violet;
+
+}
+
+.velvet:hover {
+    background: rgba(238, 130, 238, 0.555);
+}
+
+.brown {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: darkred;
+}
+
+.brown:hover {
+    background: rgba(168, 37, 37, 0.5);
+}
+
+.darkGreen {
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: darkgreen;
+    transition: background-color .8s;
+}
+
+.darkGreen:hover {
+    background: rgba(0, 100, 0, 0.507);
+}
+
+.leafGreen {
+    grid-column: span 1;
+    grid-row: span 1;
+    background: darkcyan;
+}
+
+.leafGreen:hover {
+    background: rgba(0, 139, 139, 0.507);
+}

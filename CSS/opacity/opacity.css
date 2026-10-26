@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+h1{
+    display: none;
+}
+h1:hover{
+    background: orange;
+    display: block;
+}
+h2{
+    visibility:hidden;
+}
+h2:hover{
+     background: orangered; 
+    visibility:visible;
+}
+h3{
+opacity: 0;
+}
+h3:hover{
+    opacity: 1;
+}
+
+div {
+    background: orangered;
+}
+
+div:hover {
+    background: rgba(255, 68, 0, 0);
+} */
+
+main {
+    background-image: url(https://i.pinimg.com/736x/85/bf/ab/85bfab7d7eda4cd051bb306e673b2034.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height: 90vh;
+    width: 90%;
+    
+}
+
+section{
+    height: 100vh;
+}
