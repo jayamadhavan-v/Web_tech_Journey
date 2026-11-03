@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+body{
+    background: #d82e2ec7;
+    position: static;
+}
+
+main {
+    background: palevioletred;
+}
+
+section {
+    background: palegreen;
+    /* position: static; */
+}
+
+article {
+    background: powderblue;
+    position: relative;
+    /* position: static; */
+}
+
+div {
+    background: green;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

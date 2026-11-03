@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* position: absolute; */
+}
+
+img {
+    width: 400px;
+    /* position:fixed; */
+    top: 400px;
+    left: 400px;
+}
+
+div {
+    width: 100%;
+    height: 80px;
+    background: rebeccapurple;
+    position: sticky;
+    top: 0px;
+    ;
+    left: 0px;
+    /* right: 0px; */
+    /* bottom: 10px; */
+}
+
+.popUp {
+    position: fixed;
+    top:90%;
+    bottom: 10px;
+    left: 20px;
+    width: 100px;
+    height: 80px;
+    background: red;
+}
