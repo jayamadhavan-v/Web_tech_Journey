@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-size: 24px;
+    color: white;
+    background: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .8rem;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px gray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+}
+
+nav>ul>li {
+    list-style: none;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+nav li:hover {
+    color: wheat;
+}
+
+main {
+    height: 220px;
+    padding: .8rem;
+    background: beige;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+main>h1 {
+    color: rgb(216, 168, 78);
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    font-size: 40px;
+}
+
+main>p {
+    color: rgb(177, 173, 173);
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1.6px;
+}
+
+main > button {
+    padding: .6rem 1rem;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background: black;
+    text-transform: capitalize;
+}
+
+section {
+    height: calc(100vh - 300px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background: orange; */
+}
+
+section >article {
+    height: 180px;
+    width: 320px;
+    border-radius: 8px;
+    border : 2px solid black;
+}
+
+section > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
