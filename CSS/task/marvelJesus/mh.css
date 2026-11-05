@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+section>h1 {
+    text-transform: uppercase;
+    font-size: 70px;
+    letter-spacing: 5px;
+    color: white;
+
+}
+
+#batman {
+    background: url(./img/batman.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#daredeveil {
+    background: url(./img/dare_devil.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#deadpool {
+    background: url(./img/deadpool.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#ghostrider {
+    background: url(./img/./ghost_rider.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#loki {
+    background: url(./img/a16d175b8d23027a43c68bc69ec6b6ab.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
