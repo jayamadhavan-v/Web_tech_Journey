@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile First Approach */
+
+/* Small devices */
+@media (min-width: 576px) {
+  body{
+    background: blue;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) {
+  body{
+    background: green;
+  }
+}
+
+/* Laptops */
+@media (min-width: 992px) {
+  body{
+    background: orangered;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1200px) {
+  body{
+    background: orange;
+  }
+}
+
+/* Large screens */
+@media (min-width: 1400px) {
+   body{
+    background: red;
+   }
+}
